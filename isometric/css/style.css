@@ -25,10 +25,6 @@ font-family: 'Bitter', serif;
 html {
   box-sizing: border-box;
 }
-:root{
-  --main-color: #42B883;
-  --main-color-light: #0ec9aa;
-}
 *,*::before,*::after {
   box-sizing: inherit;
 }
@@ -59,23 +55,25 @@ a:hover {
 
 .text{
   top: 50vh;
-  position: absolute;
   font-size: 1.4rem !important;
   width: 15em;
 }
-.left-text{
-  top: 50vh;
-  position: absolute;
+.info-text{
+  top: 55vh;
   font-size: 1.4rem !important;
-  width: 15em;
-  color: #F5F5F5;
-  margin-left: 8em;
+  color: #000;
 }
-.left-text a {
+.info-text a {
   color: #F57170;
 }
-.left-text a:hover {
+.info-text a:hover {
   color: #F5F5F5;
+}
+.my-baseinfo{
+  top: 5vh;
+  position: absolute;
+  left: 0;
+  margin-left: 10em;
 }
 
 .start-img{
@@ -87,30 +85,17 @@ a:hover {
   margin-right: 10px;
 }
 
-.nav-extended{
-  background-color: #15b7b9;
-
-}
-.nav-extended a {
-  color: #F5F5F5 !important;
-
-}
-.prj a{
-  color: #000;
-}
-.prj a:hover {
+.link-icons a {
   color: #F57170;
 }
-.prj img{
-  height: 30vh;
-  width: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+.link-icons a:hover {
+  color: #10DDC2;
 }
-.prj-right{
-  top: 1000vh;
-  position: static;
-  right: 1;
-  margin-right: 10px;
+.my-baseinfo button {
+  background-color: #F57170;
+  color: #F5F5F5;
+}
+.my-baseinfo button:hover{
+  background-color: #10DDC2;
+  color: #F5F5F5;
 }
